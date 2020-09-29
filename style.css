@@ -1,0 +1,50 @@
+
+root{
+  --shadow: 2px 0 5px rgba(49, 49, 49, 0.5);
+  --text-color: #3a3838;
+  --dark: #3a3838;
+  --dark-lighten: #504c4c;
+  --light: #fdfdfd;
+}
+
+button{
+  background-color: crimson;
+  color: var(--dark)
+}
+
+button:focus{
+  outline: none;
+}
+
+button:hover{
+  background-color: var(--light);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.d-flex.space-between{
+  justify-content: space-between;
+}
+.d-flex.space-around{
+  justify-content: space-around;
+}
+.d-flex.justify-content-center{
+  justify-content: center;
+}
+
+.bg-primary{
+  background-color: dimgray;
+}
+
+.hidden{
+  display: none !important;
+}
