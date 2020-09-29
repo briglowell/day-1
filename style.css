@@ -45,6 +45,9 @@ button:hover{
   background-color: dimgray;
 }
 
+.bg-light{
+  background-color: lightslategray;
+}
 .hidden{
   display: none !important;
 }
